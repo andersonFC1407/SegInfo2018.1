@@ -49,7 +49,7 @@ ataques XSS. algumas delas:
 ### Atacante - Kali Linux
 
 1. Instalação normal do Ubuntu server, até chegar a Seleção de pacotes, nela selecione LAMP server e OpenSSh server.
-![imagem01](imagens/09.png)
+![imagem01](imagens/01.png)
 ####Obs: Caso não for utilizar o Ubuntu Server basta executar
 
 ```
@@ -196,10 +196,16 @@ Instalar o DVWA e realizar um XSS Reflected, fazendo surgiu um pop-up, apresenta
 
 ## Referências
 
-+ [Link] (https://imasters.com.br/devsecops/5-formas-para-prevenir-os-ataques-xss)
-+ [Link] (https://www.owasp.org/index.php/Testing_for_Reflected_Cross_site_scripting_(OTG-INPVAL-001))
-+ [Link] (https://www.incapsula.com/web-application-security/reflected-xss-attacks.html)
-+ [Link] (http://www.redesegura.com.br/2012/01/saiba-mais-sobre-o-cross-site-scripting-xss/)
-+ [Link] (https://www.youtube.com/watch?v=OVLz6RgOjIY)
-+ [Link] (https://medium.com/@GustavoOliveira/xss-cross-site-scripting-ae5fe11b0f2e)
-+ [Link] (https://portswigger.net/kb/issues/00200300_cross-site-scripting-reflected)
+https://imasters.com.br/devsecops/5-formas-para-prevenir-os-ataques-xss
+
+https://www.owasp.org/index.php/Testing_for_Reflected_Cross_site_scripting_(OTG-INPVAL-001)
+
+https://www.incapsula.com/web-application-security/reflected-xss-attacks.html
+
+http://www.redesegura.com.br/2012/01/saiba-mais-sobre-o-cross-site-scripting-xss/
+
+https://www.youtube.com/watch?v=OVLz6RgOjIY
+
+https://medium.com/@GustavoOliveira/xss-cross-site-scripting-ae5fe11b0f2e
+
+https://portswigger.net/kb/issues/00200300_cross-site-scripting-reflected
