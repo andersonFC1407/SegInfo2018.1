@@ -191,7 +191,7 @@ Este link direciona para uma pagina de teste de ataque XSS pronta. No campo nome
 
 ## Prática Proposta
 
-Instalar o DVWA e realizar um XSS Reflected, fazendo surgiu um pop-up, apresentando o nome do aluno, printar esta tela e postar no Git Hub.
+Instalar o DVWA e realizar um XSS Reflected, fazendo surgir um pop-up, apresentando o nome do aluno, printar esta tela e postar no Git Hub.
 
 
 ## Referências
