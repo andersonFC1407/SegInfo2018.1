@@ -100,7 +100,7 @@ sudo unzip master.zip -d html
 8. Agora entre na pasta html e mude o nome da pasta descompactada para facilitar o acesso:
 ```
 cd html
-sudo mv html/DVWA-master html/dvwa
+sudo mv DVWA-master dvwa
 ```
 
 9. Agora altere a linha com allow_url_include de off para on:
@@ -123,7 +123,7 @@ Obs: Neste arquivo deixe o usuario como root e em db_password insira a senha con
 
 12. Altere também o arquivo xss_s, para poder inserir mais caracteres no campo de comentarios do XSS Stored, necessario para poder escrever o script completo.
 ```
-sudo vim html/dvwa/vulnerabilities/xss_s/index.php
+sudo vim dvwa/vulnerabilities/xss_s/index.php
 ```
 
 Busque por mtxMessage
