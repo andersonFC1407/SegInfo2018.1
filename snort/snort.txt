@@ -1,0 +1,196 @@
+Commencing packet processing (pid=14225)
+S5: Session exceeded configured max bytes to queue 1048576 using 1048854 bytes (server queue). 192.168.0.121 49275 --> 192.168.0.118 80 (0) : LWstate 0x1 LWFlags 0x402001
+S5: Session exceeded configured max bytes to queue 1048576 using 1048640 bytes (server queue). 192.168.0.121 49282 --> 192.168.0.118 80 (0) : LWstate 0x1 LWFlags 0x402001
+S5: Session exceeded configured max bytes to queue 1048576 using 1050018 bytes (server queue). 192.168.0.121 49281 --> 192.168.0.118 80 (0) : LWstate 0x1 LWFlags 0x402001
+S5: Session exceeded configured max bytes to queue 1048576 using 1049748 bytes (server queue). 192.168.0.121 49280 --> 192.168.0.118 80 (0) : LWstate 0x1 LWFlags 0x402001
+S5: Pruned 5 sessions from cache for memcap. 13 scbs remain.  memcap: 8388630/8388608
+S5: Pruned 3 sessions from cache for memcap. 10 scbs remain.  memcap: 7900637/8388608
+S5: Pruned session from cache that was using 1174069 bytes (memcap/check). 192.168.0.121 49275 --> 192.168.0.118 80 (0) : LWstate 0x1 LWFlags 0x2001
+S5: Pruned 1 sessions from cache for memcap. 10 scbs remain.  memcap: 7214617/8388608
+S5: Session exceeded configured max bytes to queue 1048576 using 1048866 bytes (server queue). 192.168.0.121 49283 --> 192.168.0.118 80 (0) : LWstate 0x1 LWFlags 0x402001
+S5: Pruned 1 sessions from cache for memcap. 9 scbs remain.  memcap: 8324506/8388608
+S5: Pruned 1 sessions from cache for memcap. 8 scbs remain.  memcap: 7349829/8388608
+S5: Session exceeded configured max bytes to queue 1048576 using 1048740 bytes (server queue). 192.168.0.121 49279 --> 192.168.0.118 80 (0) : LWstate 0x1 LWFlags 0x402001
+S5: Session exceeded configured max bytes to queue 1048576 using 1049972 bytes (server queue). 192.168.0.121 49284 --> 192.168.0.118 80 (0) : LWstate 0x1 LWFlags 0x402001
+stop
+^C*** Caught Int-Signal
+===============================================================================
+Run time for packet processing was 152.81734 seconds
+Snort processed 165561 packets.
+Snort ran for 0 days 0 hours 2 minutes 32 seconds
+   Pkts/min:        82780
+   Pkts/sec:         1089
+S5: Pruned session from cache that was using 1177254 bytes (purge whole cache). 192.168.0.121 49280 --> 192.168.0.118 80 (0) : LWstate 0x1 LWFlags 0x2001
+S5: Pruned session from cache that was using 1169984 bytes (purge whole cache). 192.168.0.121 49282 --> 192.168.0.118 80 (0) : LWstate 0x1 LWFlags 0x2001
+S5: Pruned session from cache that was using 1175614 bytes (purge whole cache). 192.168.0.121 49279 --> 192.168.0.118 80 (0) : LWstate 0x1 LWFlags 0x2001
+S5: Pruned session from cache that was using 1167807 bytes (purge whole cache). 192.168.0.121 49281 --> 192.168.0.118 80 (0) : LWstate 0x1 LWFlags 0x2001
+S5: Pruned session from cache that was using 1178031 bytes (purge whole cache). 192.168.0.121 49283 --> 192.168.0.118 80 (0) : LWstate 0x1 LWFlags 0x2003
+S5: Pruned session from cache that was using 1162310 bytes (purge whole cache). 192.168.0.121 49284 --> 192.168.0.118 80 (0) : LWstate 0x1 LWFlags 0x2001
+===============================================================================
+Memory usage summary:
+  Total non-mmapped bytes (arena):       51027968
+  Bytes in mapped regions (hblkhd):      13574144
+  Total allocated space (uordblks):      40202672
+  Total free space (fordblks):           10825296
+  Topmost releasable block (keepcost):   7106736
+===============================================================================
+Packet I/O Totals:
+   Received:       165563
+   Analyzed:       165562 ( 99.999%)
+    Dropped:            0 (  0.000%)
+   Filtered:            0 (  0.000%)
+Outstanding:            1 (  0.001%)
+   Injected:            0
+===============================================================================
+Breakdown by protocol (includes rebuilt packets):
+        Eth:       165573 (100.000%)
+       VLAN:            0 (  0.000%)
+        IP4:       165559 ( 99.992%)
+       Frag:            0 (  0.000%)
+       ICMP:            0 (  0.000%)
+        UDP:           83 (  0.050%)
+        TCP:       110338 ( 66.640%)
+        IP6:            4 (  0.002%)
+    IP6 Ext:            4 (  0.002%)
+   IP6 Opts:            0 (  0.000%)
+      Frag6:            0 (  0.000%)
+      ICMP6:            0 (  0.000%)
+       UDP6:            4 (  0.002%)
+       TCP6:            0 (  0.000%)
+     Teredo:            0 (  0.000%)
+    ICMP-IP:            0 (  0.000%)
+    IP4/IP4:            0 (  0.000%)
+    IP4/IP6:            0 (  0.000%)
+    IP6/IP4:            0 (  0.000%)
+    IP6/IP6:            0 (  0.000%)
+        GRE:            0 (  0.000%)
+    GRE Eth:            0 (  0.000%)
+   GRE VLAN:            0 (  0.000%)
+    GRE IP4:            0 (  0.000%)
+    GRE IP6:            0 (  0.000%)
+GRE IP6 Ext:            0 (  0.000%)
+   GRE PPTP:            0 (  0.000%)
+    GRE ARP:            0 (  0.000%)
+    GRE IPX:            0 (  0.000%)
+   GRE Loop:            0 (  0.000%)
+       MPLS:            0 (  0.000%)
+        ARP:           10 (  0.006%)
+        IPX:            0 (  0.000%)
+   Eth Loop:            0 (  0.000%)
+   Eth Disc:            0 (  0.000%)
+   IP4 Disc:        55128 ( 33.295%)
+   IP6 Disc:            0 (  0.000%)
+   TCP Disc:            0 (  0.000%)
+   UDP Disc:            0 (  0.000%)
+  ICMP Disc:            0 (  0.000%)
+All Discard:        55128 ( 33.295%)
+      Other:           10 (  0.006%)
+Bad Chk Sum:        74040 ( 44.717%)
+    Bad TTL:            0 (  0.000%)
+     S5 G 1:            0 (  0.000%)
+     S5 G 2:           12 (  0.007%)
+      Total:       165573
+===============================================================================
+Action Stats:
+     Alerts:            0 (  0.000%)
+     Logged:            0 (  0.000%)
+     Passed:            0 (  0.000%)
+Limits:
+      Match:            0
+      Queue:            0
+        Log:            0
+      Event:            0
+      Alert:            0
+Verdicts:
+      Allow:       165561 ( 99.999%)
+      Block:            0 (  0.000%)
+    Replace:            0 (  0.000%)
+  Whitelist:            0 (  0.000%)
+  Blacklist:            0 (  0.000%)
+     Ignore:            0 (  0.000%)
+      Retry:            0 (  0.000%)
+===============================================================================
+Frag3 statistics:
+        Total Fragments: 0
+      Frags Reassembled: 0
+               Discards: 0
+          Memory Faults: 0
+               Timeouts: 0
+               Overlaps: 0
+              Anomalies: 0
+                 Alerts: 0
+                  Drops: 0
+     FragTrackers Added: 0
+    FragTrackers Dumped: 0
+FragTrackers Auto Freed: 0
+    Frag Nodes Inserted: 0
+     Frag Nodes Deleted: 0
+===============================================================================
+===============================================================================
+Stream statistics:
+            Total sessions: 17
+              TCP sessions: 12
+              UDP sessions: 5
+             ICMP sessions: 0
+               IP sessions: 0
+                TCP Prunes: 11
+                UDP Prunes: 0
+               ICMP Prunes: 0
+                 IP Prunes: 0
+TCP StreamTrackers Created: 12
+TCP StreamTrackers Deleted: 12
+              TCP Timeouts: 0
+              TCP Overlaps: 0
+       TCP Segments Queued: 14248
+     TCP Segments Released: 14248
+       TCP Rebuilt Packets: 0
+         TCP Segments Used: 0
+              TCP Discards: 6
+                  TCP Gaps: 0
+      UDP Sessions Created: 5
+      UDP Sessions Deleted: 5
+              UDP Timeouts: 0
+              UDP Discards: 0
+                    Events: 1267
+           Internal Events: 0
+           TCP Port Filter
+                  Filtered: 0
+                 Inspected: 0
+                   Tracked: 36286
+           UDP Port Filter
+                  Filtered: 0
+                 Inspected: 0
+                   Tracked: 5
+===============================================================================
+HTTP Inspect - encodings (Note: stream-reassembled packets included):
+    POST methods:                         0         
+    GET methods:                          0         
+    HTTP Request Headers extracted:       0         
+    HTTP Request Cookies extracted:       0         
+    Post parameters extracted:            0         
+    HTTP response Headers extracted:      0         
+    HTTP Response Cookies extracted:      0         
+    Unicode:                              0         
+    Double unicode:                       0         
+    Non-ASCII representable:              0         
+    Directory traversals:                 0         
+    Extra slashes ("//"):                 0         
+    Self-referencing paths ("./"):        0         
+    HTTP Response Gzip packets extracted: 0         
+    Gzip Compressed Data Processed:       n/a       
+    Gzip Decompressed Data Processed:     n/a       
+    Total packets processed:              36199     
+===============================================================================
+SMTP Preprocessor Statistics
+  Total sessions                                    : 0
+  Max concurrent sessions                           : 0
+===============================================================================
+dcerpc2 Preprocessor Statistics
+  Total sessions: 0
+===============================================================================
+===============================================================================
+SIP Preprocessor Statistics
+  Total sessions: 0
+===============================================================================
+Snort exiting
+
