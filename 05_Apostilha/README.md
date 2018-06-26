@@ -1,0 +1,1 @@
+Leitura da apostilha realizada.
